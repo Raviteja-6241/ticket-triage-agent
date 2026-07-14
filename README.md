@@ -1,11 +1,11 @@
 # Ticket Triage Agent
 
-[![CI](https://github.com/YOUR_USERNAME/ticket-triage-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/ticket-triage-agent/actions)
+[![CI](https://github.com/Raviteja-6241/ticket-triage-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Raviteja-6241/ticket-triage-agent/actions)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![CrewAI](https://img.shields.io/badge/framework-CrewAI-orange)](https://www.crewai.com/)
 
 > **Part of the [Business Ops Agent Suite](#business-ops-agent-suite)** — Stage 2: Triage.
-> Upstream: [multi-agent-data-pipeline](https://github.com/YOUR_USERNAME/multi-agent-data-pipeline)
+> Upstream: [multi-agent-data-pipeline](https://github.com/Raviteja-6241/multi-agent-data-pipeline)
 
 A 3-agent pipeline that takes raw data-quality issues (from any upstream source) and **classifies severity, routes to the correct team, and drafts a first-response ticket** — automating the triage step that normally eats an analyst's morning.
 
@@ -51,7 +51,7 @@ flowchart LR
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ticket-triage-agent.git
+git clone https://github.com/Raviteja-6241/ticket-triage-agent.git
 cd ticket-triage-agent
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
