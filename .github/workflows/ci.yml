@@ -17,5 +17,5 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install pytest
-      - name: Run smoke tests
-        run: pytest tests/ -v
+     - name: Run smoke tests
+        run: python -m pytest tests/ -v
